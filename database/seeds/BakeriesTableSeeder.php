@@ -1,0 +1,208 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class BakeriesTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('apartment')->truncate();
+        DB::table('apartment')->insert([
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+            [
+                'name'=>'Chung cư TimeCity',
+                'adress'=>'Số 5 Tràng Tiền',
+                'price'=>40000,
+                'categoryId'=>2,
+                'images'=>'https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_04_03/Carina.jpg',
+                'content'=>'Rất đẹp và hấp dẫn',
+                'description'=>'Tổng quan là rất đệp',
+            ],
+        ]);
+    }
+}
